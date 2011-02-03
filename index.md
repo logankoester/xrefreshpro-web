@@ -1,12 +1,12 @@
 ---
 layout: tf-home
 gwo: 1044944393
-title: TotalFinder brings tabs to your native Finder and more!
-product_title: TotalFinder
-product_subtitle: brings tabs to your native Finder and more!
-subtitle: brings tabs to your native Finder and more!
+title: Xrefresh Pro provides browser refresh automation for web developers
+product_title: XRefresh Pro
+product_subtitle: Browser refresh automation for web developers
+subtitle: provides browser refresh automation for web developers
 download: http://downloads.binaryage.com/TotalFinder-1.1.5.dmg
-downloadtitle: Download 1.1.5
+downloadtitle: Download Now
 buy: http://store.binaryage.com
 buytitle: buy
 advert: Read more about the development progress <a href="http://blog.binaryage.com">on the blog ...</a>
@@ -27,12 +27,12 @@ ogmeta: {
     email: "support@binaryage.com",
     type: "product",
     title: "TotalFinder",
-    url: "http://totalfinder.binaryage.com",
+    url: "http://localhost:4000",
     image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-256.png"
 }
 shots: [{
-    title: "Dual Mode",
-    thumb: "/images/showcase/thumb-showcase-dual-mode.png",
+    title: "Home",
+    thumb: "/images/showcase/thumb-showcase-home.png",
     full: "/images/showcase/showcase-dual-mode.png"
 },    {
     title: "Finder with tabs!",
@@ -55,40 +55,53 @@ shots: [{
  
 <div class="tf-main-content">
     <hr>
+    <div class="description">
+    <h1><strong>Are you tired of hitting refresh over and over?</strong></h1>
+    <p>XRefresh Pro updates your browser while you work, so you can preview
+    changes without ever leaving your editor. It will work with any browser, or all
+    of them at once - <strong>even over the Internet</strong>! Get instant feedback from your clients
+    or your team, and never worry again that they might be looking at stale code.</p>
+    <p>Best of all, there's no plugin to install, nothing to configure, and no 
+    network server to troubleshoot. It's the killer app for dual-monitor development!</p>
+    </p>
+    </div>
+    <hr>
     <div class="tf-highlights">
     <div class="tf-highlight" data-showcase="2">
         <div class="tf-highlight-icon">
             <a href="/tabs">
-                <div class="thumb-tabs"></div>
+                <div class="thumb-xplatform"></div>
             </a>
         </div>
         <div class="tf-highlight-content">
-            <h3>Tabbed Browsing</h3>
-            <p>Add tabs on top of Finder. The same tabs as seen in Google Chrome.</p>
+            <h3>Cross Platform</h3>
+            <p>Compatible with Windows (XP, Vista, 7), Mac OS X, and Linux.</p>
             <div class="tf-more"><a href="/tabs">read more</a></div>
         </div>
     </div>
     <div class="tf-highlight" data-showcase="1">
         <div class="tf-highlight-icon">
             <a href="/dual-mode">
-                <div class="thumb-dual"></div>
+                <div class="thumb-any_editor"></div>
             </a>
         </div>
         <div class="tf-highlight-content">
-            <h3>Dual Mode</h3>
-            <p>Display two Finder windows side-by-side in dual mode.</p>
+            <h3>Any Editor</h3>
+            <p>Keep using your favorite software. XRefresh Pro
+            simply watches for files that have changed.</p>
             <div class="tf-more"><a href="/dual-mode">read more</a></div>
         </div>
     </div>
     <div class="tf-highlight" data-showcase="3">
         <div class="tf-highlight-icon">
             <a href="/folders-on-top">
-                <div class="thumb-fot"></div>
+                <div class="thumb-websockets"></div>
             </a>
         </div>
         <div class="tf-highlight-content">
-            <h3>Folders on Top</h3>
-            <p>Don't make me think. Folders should always go first in list view.</p>
+            <h3>Every Browser</h3>
+            <p>Works wherever WebSockets or Flash are available... without
+            installing extensions.</p>
             <div class="tf-more"><a href="/folders-on-top">read more</a></div>
         </div>
     </div>
@@ -96,36 +109,37 @@ shots: [{
     <div class="tf-highlight" data-showcase="4">
         <div class="tf-highlight-icon">
             <a href="/show-system-files">
-                <div class="thumb-ssf"></div>
+                <div class="thumb-build"></div>
             </a>
         </div>
         <div class="tf-highlight-content">
-            <h3>Show System Files</h3>
-            <p>Show me all files on the disk. I'm not afraid to see the cruft.</p>
+            <h3>Build Integration</h3>
+            <p>Run any command before refreshing the browser, such as regenerating
+            the HTML from a template.</p>
             <div class="tf-more"><a href="/show-system-files">read more</a></div>
         </div>
     </div>
     <div class="tf-highlight" data-showcase="5">
         <div class="tf-highlight-icon">
             <a href="/visor">
-                <div class="thumb-visor"></div>
+                <div class="thumb-license"></div>
             </a>
         </div>
         <div class="tf-highlight-content">
-            <h3>Visor</h3>
-            <p>Convenient system-wide Finder always one key-press away.</p>
+            <h3>Per-user License</h3>
+            <p>Use it at home, at work, or at your next gig without ever buying another copy.</p>
             <div class="tf-more"><a href="/visor">read more</a></div>
         </div>
     </div>
     <div class="tf-highlight">
         <div class="tf-highlight-icon">
-            <div class="thumb-cut">
+            <div class="thumb-free_updates">
             
             </div>
         </div>
         <div class="tf-highlight-content">
-            <h3>Cut &amp; Paste</h3>
-            <p>Use keyboard shortcuts to move files around. Faster than drag &amp; drop.</p>
+            <h3>Free updates for life</h3>
+            <p>You will be prompted to upgrade whenever a new release is available.</p>
             <div class="tf-more"><a href="http://getsatisfaction.com/binaryage/topics/move_files_and_folders_with_cut_past">discuss it here</a></div>
         </div>
     </div>
@@ -135,12 +149,12 @@ shots: [{
     <hr>
 
     <div class="what-next">
-    <a href="/documentation" class="button button-250 product-button-doc">
-        <div><div>Read Documentation</div></div>
+    <a href="/documentation" class="button button-200 product-button-doc">
+        <div><div>Learn How</div></div>
     </a>
 
     <a href="/changes" class="button button-250 product-button-cl">
-        <div><div>See Changelog</div></div>
+        <div><div>View Changelog</div></div>
     </a>
     </div>
 </div>

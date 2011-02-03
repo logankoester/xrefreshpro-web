@@ -16,3 +16,9 @@ test/
 experimental/
 release/
 sparkle
+.DS_Store
+*.swp
+*.swn
+*.swo
+.project
+tmp
