@@ -3,4 +3,4 @@
 	url = git@github.com:logankoester/xrefreshpro-layouts.git
 [submodule "shared"]
 	path = shared
-	url = git://github.com/binaryage/shared.git
+	url = git@github.com:logankoester/xrefreshpro-shared.git
