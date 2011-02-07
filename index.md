@@ -88,7 +88,7 @@ shots: [{
         <div class="tf-highlight-content">
             <h3>Any Editor</h3>
             <p>Keep using your favorite software. XRefresh Pro
-            simply watches for files that have changed.</p>
+            watches for files that have changed.</p>
             <div class="tf-more"><a href="/dual-mode">read more</a></div>
         </div>
     </div>
@@ -114,7 +114,7 @@ shots: [{
         </div>
         <div class="tf-highlight-content">
             <h3>Build Integration</h3>
-            <p>Run any command before refreshing the browser, such as regenerating
+            <p>Run any command before refreshing, such as regenerating
             the HTML from a template.</p>
             <div class="tf-more"><a href="/show-system-files">read more</a></div>
         </div>
